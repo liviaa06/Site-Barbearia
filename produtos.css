@@ -18,18 +18,47 @@ nav a{
 nav{
     position: absolute;
     top: 110px;
-    left: 740px;
+    right: 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .produtos li {
     display: inline-block;
     text-align: center;
-    margin: 0 0 0 50px;
+    width: 30%;
+    vertical-align: top;
+    /*background: #cccccc;*/
+    margin: 0 0.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid;
+
 }
  
 .produtos {
     width: 940px;
     margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.produto-descricao{
+    font-size: 18px;
 }
 
 
