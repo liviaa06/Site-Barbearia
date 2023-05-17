@@ -17,6 +17,7 @@ nav a{
 
 nav a:hover {
     color: blue;
+    text-decoration: underline;
 }
 
 nav{
@@ -29,6 +30,19 @@ nav{
     position: relative;
     width: 940px;
     margin: 0 auto;
+}
+
+.produtos li:hover{
+    border-color: blue; 
+
+}
+
+.produtos li:active{
+    border-color: crimson;
+}
+
+.produtos li:hover h2{
+    font-size: 28px;
 }
 
 .produtos li {
@@ -57,7 +71,7 @@ nav{
 }
 
 .produto-preco{
-    font-size: 22px;
+    font-size:22px;
     font-weight: bold;
     margin: 10px 0;
 }
