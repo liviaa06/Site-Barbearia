@@ -82,7 +82,14 @@ nav{
 
 footer{
     text-align: center;
-    background: url("./");
+    background: url("./bg.jpg");
+    padding: 40px o;
 }
+
+.Copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
 
 
